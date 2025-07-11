@@ -1,0 +1,60 @@
+aiohappyeyeballs==2.6.1
+aiohttp==3.12.13
+aiosignal==1.4.0
+async-timeout==5.0.1
+attrs==25.3.0
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1749972191589/work/certifi
+chardet==5.2.0
+charset-normalizer==3.4.2
+colorama==0.4.6
+contourpy @ file:///D:/bld/contourpy_1673633923174/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1733332471406/work
+Cython @ file:///D:/bld/cython_1680712396056/work
+datasets==3.6.0
+dill==0.3.8
+filelock==3.18.0
+fonttools @ file:///D:/bld/fonttools_1680021368967/work
+frozenlist==1.7.0
+fsspec==2025.3.0
+huggingface-hub==0.33.2
+idna==3.10
+Jinja2==3.1.4
+kiwisolver @ file:///D:/bld/kiwisolver_1666805768319/work
+MarkupSafe==2.1.5
+matplotlib @ file:///D:/bld/matplotlib-suite_1678135731316/work
+mkl-service==2.4.0
+mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
+mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
+mpmath==1.3.0
+multidict==6.6.3
+multiprocess==0.70.16
+munkres==1.1.4
+networkx==3.3
+numpy==2.2.6
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1745345660/work
+pandas==2.3.0
+pillow @ file:///C:/b/abs_68t826txdy/croot/pillow_1744613085333/work
+propcache==0.3.2
+pyarrow==20.0.0
+pycocotools==2.0.10
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1743089729650/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
+pytz==2025.2
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.4
+safetensors==0.5.3
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+sympy==1.13.3
+tokenizers==0.21.2
+torch==2.7.1+cu128
+torchaudio==2.7.1+cu128
+torchvision==0.22.1+cu128
+tqdm==4.67.1
+transformers==4.53.1
+typing_extensions==4.14.1
+tzdata==2025.2
+unicodedata2 @ file:///D:/bld/unicodedata2_1667239969015/work
+urllib3==2.5.0
+xxhash==3.5.0
+yarl==1.20.1
