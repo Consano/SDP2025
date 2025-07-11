@@ -39,6 +39,7 @@ IMAGENET_IMAGES = "/Users/rfk/datasets/imagenet/"
 # COCO_ANN = os.getenv("COCO_IMAGES")
 IMAGENET_IMAGES = os.getenv("IMAGENET_IMAGES")
 
+
 # List of Operators not implemented natively in PyTorch Aten. 
 # If your model uses a custom operator (user-defined torch.nn.module) that does not have an implementation in torch aten,
 # you can add the name of custom operator class in this list. The Profiler will hence treat it as a leaf operator when parsing latency.
@@ -326,18 +327,6 @@ class MaskformerProfile:
         def transform(image): 
             image_ = image.resize((640,480))
             return self.processor (image_, return_tensors = 'pt')
-        # Define the paths using the Bash format
-        images_path_str = "/c/Users/jackk/torch_flow/DataSet/test2017"
-        ann_path_str = "/c/Users/jackk/torch_flow/DataSet/image_info_test2017/annotations/image_info_test2017.json"
-
-        # 2. Convert the paths to the absolute, OS-native format
-        COCO_IMAGES = os.path.abspath(images_path_str)
-        COCO_ANN = os.path.abspath(ann_path_str)
-
-        # 3. Print the converted paths to see the change (optional)
-        print(f"Converted Image Path: {COCO_IMAGES}")
-        print(f"Converted Annotation Path: {COCO_ANN}")
-
         dataset = torchvision.datasets.CocoDetection(root= COCO_IMAGES, annFile=COCO_ANN, transform = transform)
         dataset_size = len(dataset)
         num_samples = (num_runs + 5) * batch_size
